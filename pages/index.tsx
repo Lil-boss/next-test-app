@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <br />
       <Link href="/product/[productId]" as={`/product/${4}`}>Product By id</Link>
       <br />
-      <Link href="/product/[productId]/review/[reviewId]" as={`/product/${4}/review/${4}`}>Product id by product review</Link>
+      <Link href="/product/[productId]/review/[reviewId]" as={`/product/${4}/review/${4}`}>Product review by product id</Link>
       <Hero/>
     </div>
   )
