@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/next-test-app'
+  basePath: '/gh-pages-test'
 }
 
 module.exports = nextConfig
